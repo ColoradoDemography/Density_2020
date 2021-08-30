@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Population and Housing Unit Density</title>
+    <!--<link rel="stylesheet" href="https://js.arcgis.com/4.20/esri/themes/dark/main.css">-->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.20/dijit/themes/claro/claro.css" />  
+    <link rel="stylesheet" href="https://js.arcgis.com/4.20/esri/themes/light/main.css" /> 
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="https://js.arcgis.com/4.20/"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      #infoDiv {
+        padding: 8px;
+      }
+    </style>
+    <script src="js/app.js"></script>
+  </head>
+    <body>
+
+        <div id="infoDiv" class="esri-widget">
+          Select Data:
+          <select id="field-select" class="esri-widget">
+            <option value="Pop" selected>Population Density</option>
+            <option value="House">Housing Unit Density</option>
+          </select>
+        </div>
+      <div id="viewDiv" ></div>
+
+      <button id="myBtn">Map Instructions</button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>This map displays information on population and housing density by block 
+            from the 2020 US Census and a comparison to the 2010 data. Use the dropdown in the top right to choose between
+            population and housing. To see the 2010 data, swipe the square on the left edge vertical lines
+            to the right. The map to the left of the vertical black line shows 2010 data.
+          </p>
+        </div>
+
+      </div>
+  </body>
+</html>
