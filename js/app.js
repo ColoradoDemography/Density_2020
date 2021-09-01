@@ -414,8 +414,8 @@ require([
     var view = new MapView({
       container: "viewDiv",
       map: map,
-      center: [-104.98942244719758, 39.91415366780007], // longitude, latitude
-      zoom: 10
+      center: [-104.85888924276878, 39.37551995739333], // longitude, latitude
+      zoom: 11
     });
 
     const layerList = new LayerList({
