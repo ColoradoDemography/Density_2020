@@ -33,7 +33,7 @@ require([
     //Classes for rendering
     const pop250 = {
         type: "simple-fill", // autocasts as new SimpleFillSymbol()
-        color: "#ffffb2",
+        color: "#ffffcc",
         style: "solid",
         outline: {
           width: 0,
@@ -43,7 +43,7 @@ require([
 
       const pop500 = {
         type: "simple-fill", // autocasts as new SimpleFillSymbol()
-        color: "#fed976",
+        color: "#d9f0a3",
         style: "solid",
         outline: {
           width: 0,
@@ -53,7 +53,7 @@ require([
 
       const pop1000 = {
         type: "simple-fill", // autocasts as new SimpleFillSymbol()
-        color: "#feb24c",
+        color: "#addd8e",
         style: "solid",
         outline: {
           width: 0,
@@ -63,7 +63,7 @@ require([
 
       const pop2500 = {
         type: "simple-fill", // autocasts as new SimpleFillSymbol()
-        color: "#fd8d3c",
+        color: "#78c679",
         style: "solid",
         outline: {
           width: 0,
@@ -73,7 +73,7 @@ require([
 
       const pop5000 = {
         type: "simple-fill", // autocasts as new SimpleFillSymbol()
-        color: "#f03b20",
+        color: "#31a354",
         style: "solid",
         outline: {
           width: 0,
@@ -83,7 +83,7 @@ require([
 
       const pop10000 = {
         type: "simple-fill", // autocasts as new SimpleFillSymbol()
-        color: "#bd0026",
+        color: "#006837",
         style: "solid",
         outline: {
           width: 0,
